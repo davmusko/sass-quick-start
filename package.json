@@ -1,0 +1,30 @@
+{
+  "name": "quick-start-sass",
+  "version": "1.0.0",
+  "description": "Starting files and folders for sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davmusko/sass-quick-start.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "quick-start",
+    "quick",
+    "start",
+    "template"
+  ],
+  "author": "David Musko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davmusko/sass-quick-start/issues"
+  },
+  "homepage": "https://github.com/davmusko/sass-quick-start#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
